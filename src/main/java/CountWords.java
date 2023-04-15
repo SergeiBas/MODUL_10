@@ -27,9 +27,4 @@ public class CountWords {
             throw new RuntimeException();
         }
     }
-
-    public static void main(String[] args) {
-        CountWords countWords = new CountWords();
-        countWords.counter();
-    }
 }
